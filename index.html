@@ -99,9 +99,8 @@
     </script>
   </head>
   <body>
-    <div id="root"></div>
-  </body>
-  <script src="https://cdn.jsdelivr.net/npm/@widgetbot/crate@3" async defer>
+    <div id="app"></div>
+    <script src="https://cdn.jsdelivr.net/npm/@widgetbot/crate@3" async defer>
      new Crate({
         server: '692816967895220344', // freeCodeCamp.org Official ᕕ(⌐■_■)ᕗ ♪♬
         channel: '1254842489362317322' // #code-radio
@@ -116,4 +115,6 @@
       embed.style.maxHeight = "calc(100% - 80px)"
     }
   </script>
+    <script type="module" src="/src/index.tsx"></script>
+  </body>
 </html>
